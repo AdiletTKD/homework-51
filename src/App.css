@@ -25,6 +25,11 @@
 
 .changeBtn {
   padding: 10px 30px;
+  font-size: 22px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
 }
 
 .num-wrap {
