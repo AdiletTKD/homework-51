@@ -25,7 +25,7 @@ const App = () => {
       <button onClick={randomNums} className="changeBtn" >New numbers</button>
       <div className='num-wrap'>
         {numbers.map((number) => (
-          <Numbers key={number} number={number} />
+          <Numbers number={number} />
         ))}
       </div>
     </div>
